@@ -24,14 +24,13 @@
 <div class="header"><a href="networth.html"><span>Money Wizards</span><span class="logoright"></span></a></div>
 <div class="stripes"><span></span></div>
 <div class="nav"><a href="networth.html">Caluclators</a> <!--<a href="contact.html">Contact Us</a>-->
-<!-- the login container -->
 <div class="right">
 <%
     UserService userService = UserServiceFactory.getUserService();
     User user = userService.getCurrentUser();
     if (user != null) {
 %>
-Welcome <%= user.getNickname() %>! (<a href="<%= userService.createLogoutURL(request.getRequestURI()) %>">sign out</a>)
+<a name="login">Welcome <%= user.getNickname() %>!</a><a href="<%= userService.createLogoutURL(request.getRequestURI()) %>">Sign out</a>
 <%
     } else {
 %>
