@@ -4,9 +4,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
 <head>
+<!-- The application source code for this website is not freeware. This includes but is not limited to all java, jsp, xml, and properties files.
+It is licensed under the LGPL, which means that after you purchase it, it will be free for you to use in any way you see fit.
+It is free as in freedom of speech but not as in free beer. -->
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 <meta name="description" content="This website is for all you money wizards out there and for those who would like to become ones." />
-<meta name="keywords" content="money, finance, net, worth, calulator" />
+<meta name="keywords" content="money, finance, net worth, calulator, money wizard, money wizards, financial wizard, financial wizards" />
 <meta name="author" content="money-wizards.com" />
 <meta name="robots" content="index, follow, noarchive" />
 <meta name="googlebot" content="noarchive" />
@@ -59,7 +62,7 @@ google.friendconnect.container.renderSocialBar(
 <div class="container">
 <div class="header"><a href="networth.jsp"><span>Money Wizards</span><span class="logoright"></span></a></div>
 <div class="stripes"><span></span></div>
-<div class="nav"><a href="networth.jsp">Caluclators</a> <%--<a href="contact.jsp">Contact Us</a>--%>
+<div class="nav"><a href="networth.jsp">Caluclators</a> <a href="wizard-advice.jsp">Wizardly Advice</a>
 <div class="right">
 <%
 	UserService userService = UserServiceFactory.getUserService();
