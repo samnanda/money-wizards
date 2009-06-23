@@ -386,8 +386,9 @@ public class IntermediateNetWorth implements EntryPoint {
 
 		};
 		saveButton.addClickHandler(saveHandler);
-
-		RootPanel.get("saveButtonContainer").add(saveButton);
+		
+		// TODO: The line below needs to be completed after the functionality is developed
+		// RootPanel.get("saveButtonContainer").add(saveButton);
 
 		// Focus the cursor on the name field when the app loads
 		age1Field.setFocus(true);

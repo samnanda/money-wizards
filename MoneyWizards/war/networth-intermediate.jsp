@@ -1,28 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html>
-<head>
-<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
-<meta name="description" content="This website is for all you money wizards out there and for those who would like to become ones." />
-<meta name="keywords" content="money, finance, net, worth, calulator" />
-<meta name="author" content="money-wizards.com" />
-<meta name="robots" content="index, follow, noarchive" />
-<meta name="googlebot" content="noarchive" />
-<title>Money Wizards - Intermediate Net Worth Calculator</title>
-<!-- zero margin = wide layout -->
-<script charset="utf-8" id="injection_graph_func" src="inc/injection_graph_func.js"></script>
-<script type="text/javascript" language="javascript" src="intermediatenetworth/intermediatenetworth.nocache.js"></script>
-<link rel="stylesheet" type="text/css" href="inc/style.css" media="screen">
-</head>
-<body style="margin: 0pt;">
-<!-- OPTIONAL: include this if you want history support -->
-<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position: absolute; width: 0; height: 0; border: 0"></iframe>
-<div class="container">
-<div class="header"><a href="networth.jsp"><span>Money Wizards</span></a></div>
-<div class="stripes"><span></span></div>
-<div class="nav"><a href="networth.jsp">Caluclators</a> <!--<a href="contact.jsp">Contact Us</a>-->
-<div class="clearer"><span></span></div>
-</div>
-<div class="stripes"><span></span></div>
+<jsp:include page="inc/header.jsp">
+	<jsp:param value="Intermediate Net Worth Calculator" name="title" />
+	<jsp:param value="intermediatenetworth/intermediatenetworth.nocache.js" name="gwtScript"/>
+</jsp:include>
 <div class="main">
 <div class="left">
 <div class="content"><a href="networth.jsp">Basic Net Worth</a>&nbsp;&nbsp;&nbsp;Intermediate Net Worth
@@ -166,13 +145,13 @@
 <h2>Sponsors</h2>
 <ul>
 	<li><script type="text/javascript"><!--
-google_ad_client = "pub-7771085580946782";
-google_ad_slot = "2398614880";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script> <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script></li>
+		google_ad_client = "pub-7771085580946782";
+		google_ad_slot = "2398614880";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script> <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script></li>
 </ul>
 </div>
 <div class="col3center"></div>
@@ -181,6 +160,8 @@ google_ad_height = 90;
 <div class="clearer"><span></span></div>
 </div>
 </div>
+<!-- Include the Google Friend Connect javascript library. -->
+<script type="text/javascript" src="http://www.google.com/friendconnect/script/friendconnect.js"></script>
 </div>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

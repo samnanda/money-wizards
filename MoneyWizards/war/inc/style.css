@@ -53,6 +53,9 @@ h2 {
 	background: ;
 	height: 120px;
 }
+.height40 {
+	height: 40px;
+}
 .clearer {clear: both;}
 .stripes {
 	background: #333 url(img/stripe.gif);
@@ -92,8 +95,8 @@ h2 {
 	border-bottom: 1px solid #2A2A2A;
 	border-left: 1px solid #2A2A2A;
 }
-.main .left {width: 64%;}
-.main .right {width: 36%;}
+.main .left {width: 60%;}
+.main .right {width: 40%;}
 
 .content {
 	border-left: 1px solid #444;

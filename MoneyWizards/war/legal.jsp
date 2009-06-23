@@ -1,29 +1,8 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html>
-<head>
-<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
-<meta name="description" content="This website is for all you money wizards out there and for those who would like to become ones." />
-<meta name="keywords" content="money, finance, net, worth, calulator" />
-<meta name="author" content="money-wizards.com" />
-<meta name="robots" content="index, follow, noarchive" />
-<meta name="googlebot" content="noarchive" />
-<title>Money Wizards - Basic Net Worth Calculator</title>
-<!-- zero margin = wide layout -->
-<script charset="utf-8" id="injection_graph_func" src="inc/injection_graph_func.js"></script>
-<!--<script type="text/javascript" language="javascript" src="moneywizards/moneywizards.nocache.js"></script>-->
-<link rel="stylesheet" type="text/css" href="inc/style.css" media="screen">
-</head>
-<body style="margin: 0pt;">
-<!-- OPTIONAL: include this if you want history support -->
-<div class="container">
-<div class="header"><a href="networth.html"><span>Money Wizards</span><span class="logoright"></span></a></div>
-<div class="stripes"><span></span></div>
-<div class="nav"><a href="networth.html">Caluclators</a> <!--<a href="contact.html">Contact Us</a>-->
-<div class="clearer"><span></span></div>
-</div>
-<div class="stripes"><span></span></div>
+<jsp:include page="inc/header.jsp">
+	<jsp:param value="Legal" name="title"/>
+</jsp:include>
 <div class="main">
-<div class="left"><!--<div class="content">Basic Net Worth&nbsp;&nbsp;&nbsp;<a href="networth2.html">Intermediate Net Worth</a><br/>-->
+<div class="left">
 <ul>
 	<li>This website is for entertainment and education but in no way constitutes professional advice. Users of the website may not hold the owners liable for the content here (except in
 	jurisdictions where liability may not be lawfully excluded). Any decisions made about your money, finances, or anything else related to something you found here or results of your action or inaction
