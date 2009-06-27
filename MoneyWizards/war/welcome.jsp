@@ -1,5 +1,5 @@
 <jsp:include page="inc/header.jsp">
-	<jsp:param value="Basic Net Worth Calculator" name="title" />
+	<jsp:param value="Welcome to Money Wizards!" name="title" />
 </jsp:include>
 <div class="main">
 <div class="left">
