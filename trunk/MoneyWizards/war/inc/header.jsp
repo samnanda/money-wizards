@@ -60,7 +60,7 @@ google.friendconnect.container.renderSocialBar(
   skin);
 </script>
 <div class="container">
-<div class="header"><a href="networth.jsp"><span>Money Wizards</span><span class="logoright"></span></a></div>
+<div class="header"><a href="welcome.jsp"><span>Money Wizards</span><span class="logoright"></span></a></div>
 <div class="stripes"><span></span></div>
 <div class="nav"><a href="networth.jsp">Caluclators</a> <a href="wizard-advice.jsp">Wizardly Advice</a>
 <div class="right">

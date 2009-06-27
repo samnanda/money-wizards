@@ -187,7 +187,10 @@ h2 {
 	width: 31%;
 }
 .col3center {margin: 0 3%;}
-
+.col3right {
+	float: right;
+	width: 31%;
+}
 /* bottom */
 .bottom {
 	color: #666;
