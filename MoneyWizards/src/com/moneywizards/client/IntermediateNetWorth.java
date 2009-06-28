@@ -395,5 +395,8 @@ public class IntermediateNetWorth implements EntryPoint {
 		age1Field.selectAll();
 
 		sendButton.addClickHandler(handler);
+
+		// populate it on load
+		handler.calcNetWorth();
 	}
 }
