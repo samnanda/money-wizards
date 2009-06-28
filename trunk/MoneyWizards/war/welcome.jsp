@@ -40,19 +40,19 @@
 <script type="text/javascript">
     function LoadDynamicFeedControl() {
       var feeds = [
-	{title: 'money headlines',
+	{title: 'Money headlines',
 	 url: 'http://rssfeeds.usatoday.com/UsatodaycomMoney-TopStories'
 	},
-	{title: 'finance',
+	{title: 'Finance',
 	 url: 'http://rss.cnn.com/rss/money_pf.rss'
 	},
-	{title: 'investments',
+	{title: 'Investments',
 	 url: 'http://feeds.investopedia.com/stockinvesting'
 	},
-	{title: 'saving',
+	{title: 'Saving',
 	 url: 'http://www.bankrate.com/syndication/bankrate_todaysstories.xml'
 	},
-	{title: 'financial terms',
+	{title: 'Financial terms',
 	 url: 'http://feeds.feedburner.com/InvestorwordsTOD'
 	}];
       var options = {

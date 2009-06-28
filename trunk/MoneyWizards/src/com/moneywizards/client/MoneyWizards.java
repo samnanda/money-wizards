@@ -157,5 +157,8 @@ public class MoneyWizards implements EntryPoint {
 		netWorthField.addKeyUpHandler(handler);
 		investField.addKeyUpHandler(handler);
 		rateField.addKeyUpHandler(handler);
+
+		// populate it on load
+		handler.calcNetWorth();
 	}
 }
