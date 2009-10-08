@@ -62,7 +62,7 @@ google.friendconnect.container.renderSocialBar(
 <div class="container">
 <div class="header"><a href="welcome.jsp"><span>Money Wizards</span><span class="logoright"></span></a></div>
 <div class="stripes"><span></span></div>
-<div class="nav"><a href="networth.jsp">Calculators</a> <a href="wizard-advice.jsp">Wizardly Advice</a>
+<div class="nav"><a href="networth.jsp">Calculators</a> <a href="wizard-advice.jsp">Wizardly Advice</a> <a href="http://money-wizards.blogspot.com">Blog</a>
 <div class="right">
 <%
 	UserService userService = UserServiceFactory.getUserService();
