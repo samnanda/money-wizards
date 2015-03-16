@@ -1,0 +1,1 @@
+The application source code for this website is not freeware. This includes but is not limited to all java, xml, and properties files. It is licensed under the LGPL, which means that after you purchase it, it will be free for you to use in any way you see fit. It is free as in freedom of speech but not as in free beer.
